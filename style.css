@@ -1,0 +1,29 @@
+/* style.css */
+body {
+    background-image: url('https://pbs.twimg.com/media/Fy_qiVzWcAcsgLL.jpg:large'); /* 부쉬 배경 이미지 */
+    background-size: cover; /* 배경 이미지 크기 조절 */
+    background-position: top center; /* 배경 이미지 위쪽 중앙으로 위치 조정 */
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100vh; /* 전체 화면 높이 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+#teemo {
+    display: none; /* 초기에는 Teemo를 숨김 */
+    position: absolute; /* 절대 위치 설정 */
+    /* 위치 및 크기 조절 */
+}
+
+#result {
+    position: absolute; /* 절대 위치 설정 */
+    top: 20px; /* 화면 상단에서의 위치 */
+    left: 50%; /* 수평 중앙 정렬 */
+    transform: translateX(-50%); /* 수평 중앙 정렬을 위해 이동 */
+    background-color: rgba(255, 255, 255, 0.8); /* 반투명 흰색 배경 */
+    padding: 10px; /* 패딩 추가 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    font-size: 24px; /* 글씨 크기 조정 */
+    color: #000; /* 글씨 색상 */
+}
